@@ -8,7 +8,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-
     "electron:dev": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"wait-on http://localhost:3001 && electron .\"",
     "electron:build": "electron-builder",
     "pack": "electron-builder --dir"
@@ -16,9 +15,9 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
-    "next": "16.0.6",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
